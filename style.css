@@ -1,0 +1,157 @@
+* {
+  margin, padding: 0;
+  
+}
+
+body {
+  background: rgb(25,3,97);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(25,3,97,1) 0%, rgba(187,0,255,1) 48%);
+}
+.hide {
+  display: none;
+}
+/* screen 1 */ 
+
+main{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+  width: 280px;
+  height: 468px;
+  padding: 48px 50px;
+
+}
+main h1 {
+  color: #34355B;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+/* fica de olho nesse p */
+main p {
+  color: #34355B;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+main .message h2 {
+  color: #000;
+  text-align: center;
+  font-family: Dancing Script;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  /* padding: 10px; */
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  animation-name: toFadeIn;
+    animation-duration: 2s;
+ 
+}
+main .message {
+  background: #E4EDF1;
+  box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50); 
+  width: 273px;
+  height: 87px;
+  /* margin-top: 17px; */
+  padding: 10px;
+}
+main img {
+  width: 250px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+main img.imgBtn {
+  padding-top: 30px;
+}
+main img.imgBtn:hover {
+  cursor: pointer;
+  animation-iteration-count: infinite;
+  animation: shake 0.5s;
+}
+.screen2 button {
+  background: #FF9500;
+  color: #fff;
+  text-align: center;
+  font-family: DM Sans;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  padding: 16px;
+  cursor: pointer;
+  align-items: flex-start;
+  gap: 10px;
+  border-radius: 4px;
+  border: none;
+}
+
+
+
+@media (min-width: 375px) {
+  main {
+    padding: 20px 30px; /* cima/baixo, esquerda/direita */
+
+  }
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+@keyframes toFadeIn {
+  0% {
+    transform:
+    translateY(150px)
+    scale(0.1);
+
+  }
+
+  100% {
+    transform:
+    translateY(0px)
+    scale(1);
+  }
+}
