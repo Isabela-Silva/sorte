@@ -65,7 +65,7 @@ main .message h2 {
   line-height: normal;
   display: flex;
   /* padding: 10px; */
-  margin-top: 0px;
+  margin: 0;
   justify-content: center;
   align-items: center;
   gap: 10px;
