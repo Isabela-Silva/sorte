@@ -1,16 +1,16 @@
 // array com várias mensagens
 const fortunes = [
-  "O aprendizado é como o horizonte: não há limites.",
-  "Não há que ser forte, há que ser flexível.",
-  "Limitações são fronteiras criadas apenas pela nossa mente.",
-  "O cão não ladra por valentia e sim por medo.",
-  "Procure acender uma vela em vez de amaldiçoar a escuridão.",
-  "A palavra é prata, o silêncio é ouro.",
-  "Lembre-se de que grandes realizações e grandes amores envolvem grandes riscos.",
-  "Um pouco de perfume sempre fica nas mãos de quem oferece flores.",
-  "O homem só envelhece quando os lamentos substituem seus sonhos.",
-  "A persistência realiza o impossível.",
-  "Se alguém está tão cansado que não possa te dar um sorriso, deixa-lhe o teu.",
+  "Se um dia for traído e quiser se atirar pela janela, lembre-se: você ganhou um par de cornos e não um par de asas!",
+  "Estou começando a achar que a minha metade da laranja já virou suco.",
+  "No teatro da vida o papel de trouxa é o que melhor me serve.",
+  "Não deixe que nada te desanime. Lembre-se que até um pé na bunda te empurra pra frente.",
+  "Eu não sou fofoqueiro. Eu sou historiador da vida alheia.",
+  "Pobre é como pneu, quanto mais trabalha, mais liso fica!",
+  "Quem cedo madruga passa o dia com sono.",
+  "Dizem que tudo que vai volta. Acho que meu dinheiro se perdeu pelo caminho.",
+  "Não adianta passar a vida procurando sua metade da laranja se você é um limão azedo.",
+  "Larguei a cerveja, só não lembro onde!",
+  "Evite a ressaca, mantenha-se bêbado.",
 ];
 
 // variables
