@@ -119,7 +119,7 @@ main img.imgBtn:hover {
 
 
 
-@media (min-width: 375px) {
+@media (min-width: 320px) {
   main {
     padding: 20px 30px; /* cima/baixo, esquerda/direita */
 
